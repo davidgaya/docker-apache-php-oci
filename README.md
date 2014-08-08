@@ -4,6 +4,12 @@ tutum-docker-apache-php + Oracle OCI8 drivers
 Docker image based on tutum/apache-php with Oracle InstantClient OCI8
 driver
 
+License
+-------
+
+You must accept the OTN Development and Distribution License Agreement
+for Instant Client to download this software.
+<http://www.oracle.com/technetwork/licenses/instant-client-lic-152016.html>
 
 Usage
 -----
