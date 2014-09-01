@@ -33,8 +33,8 @@ with this docker image,
 create a new `Dockerfile` in an empty folder with the following
 contents:
 
-FROM davidgaya/apache-php-oci:latest
-RUN rm -fr    /app && git clone https://github.com/username/customapp.git /app
+    FROM davidgaya/apache-php-oci:latest
+    RUN rm -fr /app && git clone https://github.com/username/customapp.git /app
 
 replacing `https://github.com/username/customapp.git` with your
 application's GIT repository.
@@ -50,4 +50,4 @@ Test your deployment:
 
 curl http://localhost/
 
-That'Thats it!
+That's it!
