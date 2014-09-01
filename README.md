@@ -19,11 +19,11 @@ Usage
 Start your image binding the external ports 80 in all interfaces to your
 container:
 
-docker run -d -p 80:80 davidgaya/apache-php-oci
+    docker run -d -p 80:80 davidgaya/apache-php-oci
 
 Test your deployment:
 
-curl http://localhost/
+    curl http://localhost/
 
 Loading your custom PHP application
 -----------------------------------
@@ -40,14 +40,14 @@ replacing `https://github.com/username/customapp.git` with your
 application's GIT repository.
 After that, build the new `Dockerfile`:
 
-docker build -t username/my-php-app .
+    docker build -t username/my-php-app .
 
 And test it:
 
-docker run -d -p 80:80 username/my-php-app
+    docker run -d -p 80:80 username/my-php-app
 
 Test your deployment:
 
-curl http://localhost/
+    curl http://localhost/
 
 That's it!
