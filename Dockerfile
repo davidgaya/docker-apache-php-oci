@@ -1,5 +1,6 @@
 FROM tutum/apache-php
 
+RUN apt-get update
 RUN apt-get install -y unzip libaio-dev php5-dev
 RUN apt-get clean -y
 
